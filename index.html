@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="bg-cyan-600 text-white px-5 py-2 flex items-center justify-between">
+            <div>
+                <span class="font-bold text-2xl" >my</span><span class="text-yellow-400 font-bold text-3xl" >List</span> 
+            </div>
+        </nav>
+    </header>
+    <main class="flex flex-col justify-center items-center">
+        <section class="flex flex-col justify-center my-28 items-center">
+            <h1 class="font-bold text-gray-600 text-5xl mb-12">Welcome To My List!</h1>
+           <div class="flex flex-col justify-center items-center gap-5 p-14 bg-[#93c8dabc] rounded-lg">
+               <input class="p-5 lg:w-[800px] shadow-inner rounded-lg shadow-gray-500" type="text" placeholder = "Enter title of your List">
+                <input class="p-5 lg:w-[800px] shadow-inner rounded-lg shadow-gray-500" type="text" placeholder="Enter list item">
+                <button class="bg-yellow-400 rounded-lg w-fit text-white px-5 py-2 font-bold">ADD</button>
+           </div> 
+        </section>
+        <section class="flex flex-col justify-center my-28 items-center">
+            <div class="flex flex-col justify-center items-center gap-5 p-14 bg-yellow-50 rounded-lg">
+               <h1 class="font-bold text-gray-600 text-5xl mb-12">title</h1>
+               <ul class="flex flex-col gap-3">
+                <li class=""><span>list1</span> <button class="bg-yellow-400 rounded-lg w-fit text-white px-5 py-2 font-bold">ADD</button></li>
+               </ul>
+                <button class="bg-yellow-400 rounded-lg w-fit text-white px-5 py-2 font-bold">ADD</button>
+           </div> 
+        </section>
+    </main>
 </body>
 </html>
