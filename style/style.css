@@ -1,3 +1,4 @@
+
 .create-btn-div{
     font-size: 5rem;
     background: #00000022;
@@ -5,4 +6,41 @@
 .create-btn-div a:active{
 color: #000;
 cursor: pointer;
+}
+#list-item{
+    width: 700px; 
+    padding: 18px; 
+    font-size: 1.5rem; 
+    background-color: rgb(200, 237, 239);
+    font-weight: 700; 
+    border-radius: 16px;
+}
+/* .display-section{
+    height: 100vh;
+} */
+#display-section{
+    width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(255, 248, 196);
+}
+#display{
+     width: 700px;
+}
+.litems{
+    padding: 18px; 
+    font-size: 1.5rem; 
+    color: purple;  
+    font-weight: 700; 
+    border-bottom:1px solid gray;
+}
+@media (max-width:800px) {
+    #list-item{
+        width: 100%; 
+        padding: 5px;
+    }
+    #display{
+        width: 100%;
+      
+    }
 }
